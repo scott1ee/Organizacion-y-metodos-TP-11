@@ -124,5 +124,4 @@ liquidar.addEventListener('click', () => {
         var vacas = 0;
     }
     document.getElementById("vacas").innerHTML = "<hr>" + "Vacaciones: + " + parseFloat(vacas).toFixed(2);
-    console.log(faltas);
 });
